@@ -76,7 +76,6 @@ int print_rot13(va_list l, flags_t *f)
 	char ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	char *s = va_arg(l, char *);
 
-<<<<<<< HEAD
 	(void)f;
 	for (j = 0; s[j]; j++)
 	{
@@ -107,5 +106,3 @@ int print_percent(va_list l, flags_t *f)
 	(void)f;
 	return (_putchar('%'));
 }
-=======
->>>>>>> b83c077a78e91d982145a64dc35f6a95be5fddfe
